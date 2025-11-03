@@ -1,16 +1,20 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Contacts Manager App 📇
+ern and responsive Contacts Management Web App built using React.js and Redux Toolkit,
+g complete CRUD (Create, Read, Update, Delete) functionality and persistent data storage via
+.the LocalStorage API
+Core Features
+.CRUD Operations: Ability to Add, Edit, and Delete individual contacts
+.Data Persistence: Saves all user and contact data locally using the LocalStorage API
+ation: Implements Full input validation (e.g., proper Email format, checking for required
+.fields)
+Responsiveness: Features a fully Responsive UI optimized for all devices, built with
+.TailwindCSS
+Routing: Utilizes Client-side routing powered by React Router for smooth single-page
+.application navigation
+.Development: Built using Vite for a fast and optimized development environment
+Tech Stack
+React.js
+Redux Toolkit
+React Router DOM
+TailwindCSS
+LocalStorage API
